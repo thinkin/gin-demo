@@ -1,0 +1,20 @@
+# app mode, support debug | prod
+app: web
+mode: debug
+port: 8080
+
+# db
+db:
+  driver: mysql
+  host: 0.0.0.0
+  port: 3306
+  dbName: demo
+  username: admin
+  password: 123456
+
+# log
+log:
+  dir: ./log
+  level: debug
+  formatter: text # support text | json
+# logrotate
